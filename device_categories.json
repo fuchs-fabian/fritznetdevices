@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Network",
+    "manufacturers": [
+      "AVM Audiovisuelles Marketing und Computersysteme GmbH",
+      "Cisco Systems, Inc"
+    ]
+  },
+  {
+    "category": "IOT",
+    "manufacturers": [
+      "ALPSALPINE CO,.LTD",
+      "Amazon Technologies Inc.",
+      "Blink by Amazon ",
+      "Brother Industries, LTD.",
+      "BSH Hausgeraete GmbH",
+      "Espressif Inc.",
+      "Murata Manufacturing Co., Ltd.",
+      "Private",
+      "Shanghai High-Flying Electronics  Technology Co., Ltd",
+      "Tuya Smart Inc.",
+      "TP-Link Corporation Limited"
+    ]
+  },
+  {
+    "category": "Server",
+    "manufacturers": [
+      "ICANN, IANA Department",
+      "Proxmox Server Solutions GmbH",
+      "WESTERN DIGITAL CORPORATION"
+    ]
+  }
+]
