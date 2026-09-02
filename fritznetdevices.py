@@ -436,6 +436,10 @@ def get_ip_addresses_and_hostnames(primary_hostname):
     all_hostnames = set()
 
     try:
+        # Quick fix for the cases when primary_hostname is "nan <class 'float'>" - reason unknown.
+        # print(repr(primary_hostname), type(primary_hostname))
+        if pd.isna(primary_hostname):
+            return [], [], []
         addr_info = socket.getaddrinfo(primary_hostname, None)
 
         for addr in addr_info:
